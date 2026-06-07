@@ -2,182 +2,223 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NIKE AIR JORDAN ONE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puffer Jacket – Jacket Masters</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/thunder-2" rel="stylesheet">
 </head>
 <body>
-<div class="bg-layer bg-a" id="bgA"></div>
-<div class="bg-layer bg-b" id="bgB"></div>
-
-<div class="particles">
-    <span></span><span></span><span></span><span></span><span></span>
-    <span></span><span></span><span></span><span></span><span></span>
-</div>
-<div class="glow-orb" id="glowOrb"></div>
-<nav class="navigation-bar nav-animate">
-    <div class="logo-div">
-        <img src="/project/project-8/img/Logo.svg" alt="" class="logo">
+<div class="glow-blob" id="glowBlob"></div>
+<div class="particles" id="particles"></div>
+<nav class="nav" id="nav">
+    <div class="nav-logo">
+        <div class="logo-mark">JM</div>
+        <span class="logo-text">JACKET MASTERS</span>
     </div>
     <div class="nav-links">
-        <button class="nav-btn active">Home</button>
-        <button class="nav-btn">Our Story</button>
+        <button class="nav-btn active">Puffer Jacket</button>
+        <button class="nav-btn">All products</button>
+        <button class="nav-btn">About us</button>
         <button class="nav-btn">Contact</button>
-        <button class="nav-btn">Jordan Series</button>
     </div>
     <div class="nav-actions">
         <button class="icon-btn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
         </button>
         <button class="icon-btn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-        </button>
-        <button class="icon-btn">
-            <img src="/project/project-8/img/Vector3.png" alt="" class="svg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
         </button>
     </div>
 </nav>
-<div class="hero-stage">
-    <p class="jordan-bg-text">JORDAN</p>
-    <div class="shoe-slides-wrapper">
-        <div class="shoe-slide active-slide" id="slide-0">
-            <img src="/project/project-8/img/Jordan Blue.png" alt="Blue Jordan" class="hero-img float-shoe">
-        </div>
-        <div class="shoe-slide" id="slide-1">
-            <img src="/project/project-8/img/Jordan Black.png" alt="Black Jordan" class="hero-img float-shoe">
-        </div>
-        <div class="shoe-slide" id="slide-2">
-            <img src="/project/project-8/img/Jordan Red.png" alt="Red Jordan" class="hero-img float-shoe">
-        </div>
-        <div class="shoe-slide" id="slide-3">
-            <img src="/project/project-8/img/jordan teal (1).png" alt="Teal Jordan" class="hero-img float-shoe">
+<section class="hero">
+    <div class="hero-left" id="heroLeft">
+        <h1 class="hero-title">
+            <span class="line-1">Stand out,</span>
+            <span class="line-2">Without even trying</span>
+        </h1>
+        <p class="hero-desc">It's not just about staying warm. It's about stepping outside and feeling confident, comfortable, and completely yourself. This jacket is designed to elevate any outfit and wrap you in lightweight warmth all day long.</p>
+        <button class="cta-btn">
+            Get the look
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+        <div class="social-icons">
+            <a href="#" class="social-link" title="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-link" title="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" title="Dribbble">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </a>
+            <a href="#" class="social-link behance" title="Behance">
+                <svg width="22" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029H23.7zm-7.shutterstock-.3c-.01-1.96-1.406-2.38-2.54-2.38-1.204 0-2.407.596-2.54 2.38h5.08zm-9.063 4.904c-3.745 0-6.017-2.193-6.017-6.108 0-3.898 2.272-6.108 6.017-6.108 2.06 0 3.604.743 4.501 2.03.65.92.834 1.952.83 3.22H9.4c.033 2.052 1.418 2.97 2.876 2.97 1.12 0 2.123-.57 2.5-1.47h2.14c-.615 2.1-2.4 3.466-4.64 3.466zm-1.252-4.3c-.25 1.48-1.252 2.15-2.626 2.15-1.376 0-2.38-.67-2.63-2.15H6.41zm-2.63-4.604c-1.214 0-2.195.64-2.48 2H8.89c-.285-1.36-1.266-2-2.48-2z"/></svg>
+            </a>
         </div>
     </div>
-    <div class="product-info animate-left">
-        <p class="product-name" id="productName">NIKE AIR<br>JORDAN ONE</p>
-        <p class="description" id="productDesc">Built for speed and confidence, every pair combines premium materials and bold design. Engineered for comfort, made for movement.</p>
-        <button class="add-to-bag">ADD TO BAG +</button>
+    <div class="hero-center" id="heroCenter">
+        <div class="jacket-stage">
+            <div class="jacket-slide active" id="slide-0">
+                <div class="jacket-img-wrap">
+                    <img src="img/Gemini_Generated_Image_dnx8f6dnx8f6dnx8 1.png" alt="Orange Puffer Jacket" class="hero-img">
+                </div>
+            </div>
+            <div class="jacket-slide" id="slide-1">
+                <div class="jacket-img-wrap">
+                    <img src="img/Gemini_Generated_Image_5rpwhl5rpwhl5rpw 1 (2).png" alt="Black Puffer Jacket" class="hero-img">
+                </div>
+            </div>
+            <div class="jacket-slide" id="slide-2">
+                <div class="jacket-img-wrap">
+                    <img src="img/Gemini_Generated_Image_c3gotcc3gotcc3go.png" alt="White Puffer Jacket" class="hero-img">
+                </div>
+            </div>
+            <div class="jacket-slide" id="slide-3">
+                <div class="jacket-img-wrap">
+                    <img src="img/Gemini_Generated_Image_k5yofxk5yofxk5yo.png" alt="Red Puffer Jacket" class="hero-img">
+                </div>
+            </div>
+            <img src="img/Ellipse 173.png" alt="" class="shadow-main">
+        </div>
+        <p class="hero-tagline">Confidence,<br>wrapped in warmth</p>
     </div>
-    <div class="size-block animate-right">
-        <p class="size-label">CHOOSE YOUR SIZE</p>
+    <div class="hero-right" id="heroRight">
+        <div class="pricing">
+            <p class="price-sale">$149</p>
+            <p class="price-orig">$199</p>
+        </div>
+        <p class="size-label">Choose your size:</p>
         <div class="size-row">
-            <div class="size-btn">40</div>
-            <div class="size-btn">42</div>
-            <div class="size-btn">44</div>
+            <button class="size-btn">36</button>
+            <button class="size-btn">38</button>
+            <button class="size-btn">40</button>
+        </div>
+        <div class="corner-jacket-wrap">
+            <div class="corner-jacket" id="cornerJacket">
+                <img id="cornerImg" src="img/Gemini_Generated_Image_5rpwhl5rpwhl5rpw 1 (2).png" alt="Next jacket" class="corner-img">
+            </div>
+            <img src="img/Ellipse 174.png" alt="" class="shadow-corner">
         </div>
     </div>
-
-    <div class="quote-row animate-fade">
-        <hr class="hline">
-        <p class="quote-text">"Iconic Style, Built Different."</p>
-        <hr class="hline">
-    </div>
-
+</section>
+<div class="scroll-dots" id="scrollDots">
+    <div class="dot active" data-i="0"></div>
+    <div class="dot" data-i="1"></div>
+    <div class="dot" data-i="2"></div>
+    <div class="dot" data-i="3"></div>
 </div>
-<div class="scroll-dots">
-    <div class="sdot active" data-i="0"></div>
-    <div class="sdot" data-i="1"></div>
-    <div class="sdot" data-i="2"></div>
-    <div class="sdot" data-i="3"></div>
-</div>
-
 <script>
     const themes = [
-        { bg:'radial-gradient(circle at 40% 50%,#2a5cb8 0%,#0a2d6e 50%,#051840 100%)', glow:'rgba(64,122,208,0.55)',
-            name:'NIKE AIR<br>JORDAN ONE', desc:'Built for speed and confidence, every pair combines premium materials and bold design. Engineered for comfort, made for movement.' },
-        { bg:'radial-gradient(circle at 40% 50%,#3a3a3a 0%,#111 50%,#050505 100%)',    glow:'rgba(80,80,80,0.5)',
-            name:'NIKE AIR<br>JORDAN ONE', desc:'Shadow edition. Stealth meets style in a monochrome masterpiece. Pure black. Zero compromise. Made for the bold.' },
-        { bg:'radial-gradient(circle at 40% 50%,#c0392b 0%,#6a0808 50%,#3a0404 100%)', glow:'rgba(180,30,30,0.55)',
-            name:'NIKE AIR<br>JORDAN ONE', desc:'Bred colorway. The one that started it all. Fire red and black in perfect balance. A legend, reborn.' },
-        { bg:'radial-gradient(circle at 40% 50%,#00b4a0 0%,#005548 50%,#002e28 100%)', glow:'rgba(0,180,160,0.5)',
-            name:'NIKE AIR<br>JORDAN ONE', desc:'Aqua teal edition. Fresh energy meets iconic silhouette. Vibrant, bold, and unmistakable. Own the court.' }
-    ];
-
-    const slides   = document.querySelectorAll('.shoe-slide');
-    const sdots    = document.querySelectorAll('.sdot');
-    const glowOrb  = document.getElementById('glowOrb');
-    const prodName = document.getElementById('productName');
-    const prodDesc = document.getElementById('productDesc');
-    const bgA      = document.getElementById('bgA');
-    const bgB      = document.getElementById('bgB');
-    let activeBg = 'a';
-
-    function crossFadeBg(gradient) {
-        if (activeBg === 'a') {
-            bgB.style.background = gradient;
-            bgB.style.opacity    = '1';
-            bgA.style.opacity    = '0';
-            activeBg = 'b';
-        } else {
-            // Paint new bg on A, fade A in, fade B out
-            bgA.style.background = gradient;
-            bgA.style.opacity    = '1';
-            bgB.style.opacity    = '0';
-            activeBg = 'a';
+        {
+            bg:     'radial-gradient(circle at 55% 50%, #E69941 0%, #C85A08 45%, #7A3200 100%)',
+            blob:   '#E69941',
+            corner: 'img/Gemini_Generated_Image_5rpwhl5rpwhl5rpw 1 (2).png'
+        },
+        {
+            bg:     'radial-gradient(circle at 55% 50%, #3a3a3a 0%, #161616 45%, #050505 100%)',
+            blob:   '#555',
+            corner: 'img/Gemini_Generated_Image_c3gotcc3gotcc3go.png'
+        },
+        {
+            bg:     'radial-gradient(circle at 55% 50%, #d8d5cf 0%, #a9a69f 45%, #7a7870 100%)',
+            blob:   '#ccc',
+            corner: 'img/Gemini_Generated_Image_k5yofxk5yofxk5yo.png'
+        },
+        {
+            bg:     'radial-gradient(circle at 55% 50%, #c0392b 0%, #7B0E0E 45%, #380505 100%)',
+            blob:   '#a02020',
+            corner: 'img/Gemini_Generated_Image_dnx8f6dnx8f6dnx8 1.png'
         }
-    }
-
-    let current = 0, animating = false, scrollAcc = 0;
-
-    function goTo(index, dir = 'next') {
-        if (animating || index === current) return;
+    ];
+    let current   = 0;
+    let animating = false;
+    let scrollAcc = 0;
+    const SCROLL_THRESHOLD = 80;
+    const body        = document.body;
+    const blob        = document.getElementById('glowBlob');
+    const slides      = document.querySelectorAll('.jacket-slide');
+    const dots        = document.querySelectorAll('.dot');
+    const cornerEl    = document.getElementById('cornerJacket');
+    function goTo(next) {
+        if (animating || next === current) return;
         animating = true;
-        const prev = current; current = index;
-
-        slides[prev].classList.remove('active-slide');
-        slides[prev].classList.add(dir === 'next' ? 'slide-exit-up' : 'slide-exit-down');
-        setTimeout(() => slides[prev].classList.remove('slide-exit-up','slide-exit-down'), 650);
-
-        slides[current].classList.add(dir === 'next' ? 'slide-enter-down' : 'slide-enter-up');
-        requestAnimationFrame(() => requestAnimationFrame(() => {
-            slides[current].classList.remove('slide-enter-down','slide-enter-up');
-            slides[current].classList.add('active-slide');
-        }));
-
-        crossFadeBg(themes[current].bg);
-        glowOrb.style.background = themes[current].glow;
-
-        prodName.classList.add('text-fade-out');
-        prodDesc.classList.add('text-fade-out');
+        const prev = current;
+        const dir  = next > prev ? 1 : -1;
+        current    = next;
+        slides[prev].classList.remove('active');
+        slides[prev].style.setProperty('--exit-y', dir === 1 ? '-110%' : '110%');
+        slides[prev].classList.add('exiting');
         setTimeout(() => {
-            prodName.innerHTML = themes[current].name;
-            prodDesc.innerHTML = themes[current].desc;
-            prodName.classList.replace('text-fade-out','text-fade-in');
-            prodDesc.classList.replace('text-fade-out','text-fade-in');
-            setTimeout(() => { prodName.classList.remove('text-fade-in'); prodDesc.classList.remove('text-fade-in'); }, 400);
+            slides[prev].classList.remove('exiting');
+            slides[prev].style.removeProperty('--exit-y');
+        }, 750);
+        slides[current].style.setProperty('--enter-y', dir === 1 ? '110%' : '-110%');
+        slides[current].classList.add('entering');
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+            slides[current].classList.remove('entering');
+            slides[current].classList.add('active');
+        }));
+        body.style.background  = themes[current].bg;
+        blob.style.background  = themes[current].blob;
+        const cornerImg = document.getElementById('cornerImg');
+        cornerEl.classList.add('pop-out');
+        setTimeout(() => {
+            cornerImg.src = themes[current].corner;
+            cornerEl.classList.remove('pop-out');
+            cornerEl.classList.add('pop-in');
+            setTimeout(() => cornerEl.classList.remove('pop-in'), 500);
         }, 220);
 
-        sdots.forEach((d,i) => d.classList.toggle('active', i === current));
-        setTimeout(() => { animating = false; }, 680);
-    }
+        // Dots
+        dots.forEach((d, i) => d.classList.toggle('active', i === current));
 
-    window.addEventListener('wheel', e => {
+        setTimeout(() => { animating = false; }, 750);
+    }
+    window.addEventListener('wheel', (e) => {
         e.preventDefault();
         scrollAcc += e.deltaY;
-        if (scrollAcc >  80) { scrollAcc = 0; goTo((current+1)%themes.length,'next'); }
-        if (scrollAcc < -80) { scrollAcc = 0; goTo((current-1+themes.length)%themes.length,'prev'); }
+        if (scrollAcc > SCROLL_THRESHOLD) {
+            scrollAcc = 0;
+            goTo((current + 1) % themes.length);
+        } else if (scrollAcc < -SCROLL_THRESHOLD) {
+            scrollAcc = 0;
+            goTo((current - 1 + themes.length) % themes.length);
+        }
     }, { passive: false });
-
-    let ty = 0;
-    window.addEventListener('touchstart', e => { ty = e.touches[0].clientY; });
-    window.addEventListener('touchend',   e => {
-        const d = ty - e.changedTouches[0].clientY;
-        if (Math.abs(d) > 40) goTo(d > 0 ? (current+1)%themes.length : (current-1+themes.length)%themes.length, d>0?'next':'prev');
+    let touchY = 0;
+    window.addEventListener('touchstart', e => { touchY = e.touches[0].clientY; });
+    window.addEventListener('touchend', e => {
+        const d = touchY - e.changedTouches[0].clientY;
+        if (Math.abs(d) > 40) goTo(d > 0
+            ? (current + 1) % themes.length
+            : (current - 1 + themes.length) % themes.length);
     });
-
-    sdots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.i, +d.dataset.i > current ? 'next':'prev')));
-
-    document.querySelectorAll('.size-btn').forEach(btn => btn.addEventListener('click', () => {
-        document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
-        btn.classList.add('selected');
-    }));
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.addEventListener('click', () => {
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-    }));
+    dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.i)));
+    document.querySelectorAll('.size-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+        });
+    });
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
+    });
+    (function spawnParticles() {
+        const container = document.getElementById('particles');
+        for (let i = 0; i < 14; i++) {
+            const s = document.createElement('span');
+            const size = 4 + Math.random() * 8;
+            s.style.cssText = `
+      left:${Math.random()*100}%;
+      width:${size}px; height:${size}px;
+      animation-delay:${Math.random()*8}s;
+      animation-duration:${6+Math.random()*8}s;
+    `;
+            container.appendChild(s);
+        }
+    })();
 </script>
 </body>
 </html>
