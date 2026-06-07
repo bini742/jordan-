@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Thunder-Black';
-    src: url('/thunder-font/THUNDER/Fonts/OpenType-PS/Thunder-BlackLC.otf') format('opentype');
+    src: url('/fonts/Thunder-BlackHC.otf') format('opentype');
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'Thunder-bold';
-    src: url('/thunder-font/THUNDER/Fonts/OpenType-PS/Thunder Bold.otf') format('opentype');
+    src: url('/fonts/Thunder Bold.otf') format('opentype');
     font-weight: 900;
 }
 
