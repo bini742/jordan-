@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Thunder-Black';
+    src: url('/thunder-font/THUNDER/Fonts/OpenType-PS/Thunder-BlackLC.otf') format('opentype');
+    font-weight: 900;
+}
+:root {
+    --var--background-color:#8A171C;
+    --var
+}
